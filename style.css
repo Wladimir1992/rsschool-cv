@@ -1,0 +1,38 @@
+html, body {
+ height: 100%;
+ margin-left: 150px;
+ margin-right: 150px;   
+}
+body {
+    background-color:#b5a789;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-size: small;
+    margin: 0px;
+}
+.top {
+background-color: orange;
+margin: 10px 10px 10px 10px;
+padding-top: 7px;
+height: 115px;
+border-style: dashed;
+border-width: 1px;
+border-radius: 10px;    
+}
+header.top img#logo {
+    float: left;
+}
+#main {
+margin: 10px 10px 10px 10px;
+vertical-align: top;
+background-color: #e6e6e6;
+font-size: 115%;
+border-style: dashed;
+border-width: 1px;
+border-radius: 10px;
+padding: 10px;
+}
+ul {
+    padding-left: 15px;
+    margin:0px
+    
+}
