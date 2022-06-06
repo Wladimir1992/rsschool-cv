@@ -1,5 +1,5 @@
 # rsschool-cv
-# My name is Wladimir Legovich
+# My fullname is Wladimir Legovich
 ## My contacts:
 * wowa.leg@mail.ru
 * Wladimir1992#4011
