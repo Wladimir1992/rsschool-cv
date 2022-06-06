@@ -17,4 +17,4 @@ return a * b
 * I am from Belarus and I am 30.
 * University: Brest Stat Technical University, Civil Engineering major
 * I work as an engineer, but i want to change my life. That is why i study on RS School
-* My English level is A2
+* My English level is A2.
