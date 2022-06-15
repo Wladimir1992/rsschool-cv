@@ -4,38 +4,75 @@
     <meta charset="utf-8">
     <title>My CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="top" lang="En">
-        <img id="logo" src="logo2.png" alt="logo">
+    <header class="header">
+        <div class="container">
+            <img src="img/logo2.png" alt="logo">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">My contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">My skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#expirience" class="nav-link">Expirience</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div id="main" lang="En">
-        <h1>My fullname is Wladimir Legovich</h1>
-        <img src="image2.png" alt="my photo">
-        <h2>My contacts:</h2>
-        <ul>
-            <li>wowa.leg@mail.ru</li>
-            <li>Wladimir1992#4011</li>
-        </ul>
-        <h2>My skills:</h2>
-        <ul>
-            <li>HTML,SCC</li>
-        </ul>
-        <h2>My code example:</h2>
-        <pre>
-        <code>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">My fullname is Wladimir Legovich</h1>
+                <img src="img/image2.png" alt="my photo">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">My contacts:</h2>
+                <ul class="section-list">
+                    <li class="section-item">wowa.leg@mail.ru</li>
+                    <li>Wladimir1992#4011</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">My skills:</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML,SCC</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code:</h2>
+                <code class="code">
         function multiply (a, b) {return a * b}
         </code>
-        </pre>
-        <h2>Expirience:</h2>
-        I don't have any expirience, but i am ready to study hard
-        <h2>About me</h2>
-        <ul>
-            <li>I am from Belarus and I am 30.</li>
-            <li>University: Brest State Technical University, Civil Engineering major.</li>
-            <li>I work as an engineer, but i want to change my life. That is why i study on RS School.</li>
-            <li>My English level is A2.</li>
-        </ul>
-    </div>
+            </section>
+            <section class="section section-bottom" id="expirience">
+                <h2 class="section-title">Expirience:</h2>
+                <ul class="section-list">
+                    <li class="section-item>">I don't have any expirience, but i am ready to study hard </li>
+                </ul>
+            </section>
+            <section class="section section-bottom" id="about">
+                <h2 class="section-title">About me</h2>
+                <ul class="section-list">
+                    <li class="section-item">I am from Belarus and I am 30.</li>
+                    <li class="section-item">University: Brest State Technical University, Civil Engineering major.</li>
+                    <li class="section-item">I work as an engineer, but i want to change my life. That is why i study on
+                        RS School.</li>
+                    <li class="section-item">My English level is A2.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <a class="my-link" href="https://github.com/Wladimir1992/rsschool-cv">&copy; 2022, Wladimir1992 </a>
+            </div>
+            <a class="my-link" href="https://rs.school/js/"><img src="img/logo3.png" alt="schoollink"></a>
+        </div>
+    </footer>
 </body>
 </html>
